@@ -1,0 +1,14 @@
+.landingPage {
+  min-height: 804px;
+  background: white;
+  width: 1440px !important;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 375px) {
+  .landingPage {
+    width: 375px !important;
+  }
+}

@@ -1,0 +1,210 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  height: 839px;
+}
+
+.hero__left {
+  flex: 0.5;
+}
+
+.hero__left__image {
+  width: 107px;
+  height: 83px;
+  margin-top: 33px;
+  margin-left: 100px;
+}
+
+.hero__left__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero__left__text__heading {
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+  height: 207px;
+  width: 345px;
+  margin-left: 100px;
+  margin-top: 111px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 69px;
+  color: #0e2368;
+}
+
+.hero__left__text__heading__span {
+  color: #e23744;
+}
+
+.hero__left__text__subheading {
+  margin-top: 26px;
+  margin-left: 100px;
+  width: 345px;
+  height: 55px;
+  left: 100px;
+  top: 460px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.4447px;
+  line-height: 27px;
+  color: #444957;
+}
+
+.hero__left__explore__now__button {
+  margin-top: 41px;
+  margin-left: 97px;
+  width: 190px;
+  height: 63px;
+  background: #e23744;
+  border-radius: 34px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hero__right {
+  flex: 0.5;
+  position: relative;
+}
+
+.hero__right__image {
+  width: 735px;
+  height: 804px;
+}
+
+.hero__right__image img {
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 198.9px;
+}
+
+.hero__right__vector {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero__right__vector img {
+  width: 752px;
+  height: 839px;
+}
+
+.hero__right__get__in__touch__button {
+  position: absolute;
+  top: 35px;
+  right: 52.5px;
+  color: white;
+  background-color: #e23744;
+  border: 1px solid white;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 120px;
+  height: 36px;
+  border-radius: 34px;
+}
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .hero__left,
+  .hero__right {
+    flex: auto;
+  }
+
+  .hero__left__image {
+    display: none;
+  }
+
+  .hero__left__text__heading {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #0e2368;
+    width: 240px;
+    height: 130px;
+    margin-left: 67px;
+    margin-top: 75px;
+  }
+
+  .hero__left__text__subheading {
+    width: 249px;
+    height: 36px;
+    left: 63px;
+    top: 640px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #444957;
+    margin-left: 63px;
+    margin-top: 21px;
+  }
+
+  .hero__left__explore__now__button {
+    font-size: 12.2664px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    margin-top: 32px;
+    margin-left: 127px;
+    margin-bottom: 68px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .hero__right__image {
+    width: 375px;
+    height: 413.72px;
+  }
+
+  .hero__right__image img {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px 0px 102.35px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__right__vector {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hero__right__vector img {
+    width: 375px;
+    height: 426px;
+  }
+
+  .hero__right__get__in__touch__button {
+    font-size: 11px;
+    width: 90px;
+    height: 30px;
+    top: 20px;
+    right: 30.25px;
+  }
+}
