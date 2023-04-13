@@ -175,6 +175,9 @@
 
   .footer__right__mobile .footer__copyright {
     margin: 0;
+    font-weight: 400;
+    font-size: 8.76168px;
+    line-height: 32px;
   }
 
   .footer__right__mobile ul {
