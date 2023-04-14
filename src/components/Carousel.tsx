@@ -58,9 +58,11 @@ function Carousel() {
   const [page, setPage] = useState(1);
 
   return (
-    <section className="carousel">
-      <Text className="carousel__title">Latest Articles</Text>
-      <section className="carousel__section">
+    <section className="carousel" aria-label="Carousel section of articles.">
+      <Text className="carousel__title" aria-label="Latest articles section.">
+        Latest Articles
+      </Text>
+      <section className="carousel__section" aria-label="Carousel section.">
         {CardData[page - 1].map((data) => (
           <Card
             image={data.image}
@@ -70,8 +72,15 @@ function Carousel() {
           />
         ))}
       </section>
-      <div className="carousel__handler">
-        <span role="button" onClick={() => setPage(1)}>
+      <div
+        className="carousel__handler"
+        aria-label="Carousel handler button with page indicator."
+      >
+        <span
+          role="button"
+          onClick={() => setPage(1)}
+          aria-label="Carousel left button."
+        >
           <Left
             className="carousel__handler__left"
             style={{
@@ -80,8 +89,17 @@ function Carousel() {
             }}
           />
         </span>
-        <div className="carousel__handler__label">{page}/2</div>
-        <span role="button" onClick={() => setPage(2)}>
+        <div
+          className="carousel__handler__label"
+          aria-label="Carousel page indicator label."
+        >
+          {page}/2
+        </div>
+        <span
+          role="button"
+          onClick={() => setPage(2)}
+          aria-label="Carousel right indicator."
+        >
           <Right
             className="carousel__handler__right"
             style={{

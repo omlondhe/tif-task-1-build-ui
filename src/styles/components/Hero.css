@@ -4,24 +4,24 @@
   height: 839px;
 }
 
-.hero__left {
+.hero__data {
   flex: 0.5;
 }
 
-.hero__left__image {
+.hero__data__image {
   width: 107px;
   height: 83px;
   margin-top: 33px;
   margin-left: 100px;
 }
 
-.hero__left__image img {
+.hero__data__image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.hero__left__text__heading {
+.hero__data__text__heading {
   margin: 0;
   padding: 0;
   max-width: 700px;
@@ -37,11 +37,11 @@
   color: #0e2368;
 }
 
-.hero__left__text__heading__span {
+.hero__data__text__heading__span {
   color: #e23744;
 }
 
-.hero__left__text__subheading {
+.hero__data__text__subheading {
   margin-top: 26px;
   margin-left: 100px;
   width: 345px;
@@ -56,7 +56,7 @@
   color: #444957;
 }
 
-.hero__left__explore__now__button {
+.hero__data__explore__now__button {
   margin-top: 41px;
   margin-left: 97px;
   width: 190px;
@@ -70,17 +70,17 @@
   font-size: 18px;
 }
 
-.hero__right {
+.hero__image__section {
   flex: 0.5;
   position: relative;
 }
 
-.hero__right__image {
+.hero__image__section__image {
   width: 735px;
   height: 804px;
 }
 
-.hero__right__image img {
+.hero__image__section__image img {
   height: 100%;
   width: 100%;
   margin-top: 5px;
@@ -89,20 +89,20 @@
   border-bottom-left-radius: 198.9px;
 }
 
-.hero__right__vector {
+.hero__image__section__vector {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -1.4px;
+  right: -1px;
 }
 
-.hero__right__vector img {
+.hero__image__section__vector img {
   width: 752px;
   height: 839px;
 }
 
-.hero__right__get__in__touch__button {
+.hero__image__section__get__in__touch__button {
   position: absolute;
   top: 35px;
   right: 52.5px;
@@ -124,16 +124,16 @@
     height: auto;
   }
 
-  .hero__left,
-  .hero__right {
+  .hero__data,
+  .hero__image__section {
     flex: auto;
   }
 
-  .hero__left__image {
+  .hero__data__image {
     display: none;
   }
 
-  .hero__left__text__heading {
+  .hero__data__text__heading {
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 700;
@@ -147,7 +147,7 @@
     margin-top: 75px;
   }
 
-  .hero__left__text__subheading {
+  .hero__data__text__subheading {
     width: 249px;
     height: 36px;
     left: 63px;
@@ -163,7 +163,7 @@
     margin-top: 21px;
   }
 
-  .hero__left__explore__now__button {
+  .hero__data__explore__now__button {
     font-size: 12.2664px;
     line-height: 32px;
     letter-spacing: 0.01em;
@@ -174,12 +174,12 @@
     height: 40px;
   }
 
-  .hero__right__image {
+  .hero__image__section__image {
     width: 375px;
     height: 413.72px;
   }
 
-  .hero__right__image img {
+  .hero__image__section__image img {
     margin: 0;
     padding: 0;
     border-radius: 0px 0px 0px 102.35px;
@@ -187,20 +187,20 @@
     height: 100%;
   }
 
-  .hero__right__vector {
+  .hero__image__section__vector {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
   }
 
-  .hero__right__vector img {
+  .hero__image__section__vector img {
     width: 375px;
     height: 426px;
   }
 
-  .hero__right__get__in__touch__button {
+  .hero__image__section__get__in__touch__button {
     font-size: 11px;
     width: 90px;
     height: 30px;

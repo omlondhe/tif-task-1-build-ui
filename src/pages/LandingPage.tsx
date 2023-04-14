@@ -6,12 +6,12 @@ import "../styles/pages/LandingPage.css";
 
 function LandingPage() {
   return (
-    <div className="landingPage">
+    <main className="landingPage" aria-label="Landing page.">
       <Hero />
       <About />
       <Carousel />
       <Footer />
-    </div>
+    </main>
   );
 }
 
